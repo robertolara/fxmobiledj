@@ -5,4 +5,7 @@ class HomeController < ApplicationController
   def about_us
   end
 
+  def gallery
+  end
+
 end

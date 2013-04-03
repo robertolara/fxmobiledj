@@ -7,7 +7,10 @@ Fxmobiledj::Application.routes.draw do
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
-  match 'acerca-de.nosotros' => 'home#about_us', :as => :about_us
+  match 'acerca-de-nosotros' => 'home#about_us', :as => :about_us
+  match 'galeria' => 'home#gallery', :as => :gallery
+
+
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
