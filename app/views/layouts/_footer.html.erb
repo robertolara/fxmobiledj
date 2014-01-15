@@ -6,9 +6,9 @@
 					<div class="widget group">
 						<h3 class="widget-title">Mapa del Sitio</h3>
             <ul>
-              <li>Home</li>
-              <li>Galeria de Imagenes</li>
-              <li>Acerca de Nosotros</li>
+              <li><%= link_to "Home", root_path %></li>
+              <li><%= link_to "Galeria de Fotos", gallery_path %></li>
+              <li><%= link_to "Acerca de Nosotros", about_us_path %></li>
             </ul>
 					</div><!-- /widget -->
 				</div><!-- /widget-area -->
@@ -17,7 +17,7 @@
 					<div class="widget group">
 						<h3 class="widget-title">Contactanos</h3>
 						<ul>
-              <li>Telefonos 8347 0826</li>
+              <li>Tel. 8347 0826</li>
               <li>Nextel 14766470</li>
               <li><a>info@fxmobiledj.com</a></li>
 						</ul>
@@ -28,7 +28,7 @@
           <div class="widget group">
             <h3 class="widget-title">Sitio</h3>
             <ul>
-              <li><a href="#">www.fxmobiledj.com</a></li>
+              <li><%= link_to "www.fxmobiledj.com", root_path %></li>
               <li><a></a></li>
 						</ul>
           </div><!-- /widget -->
@@ -38,7 +38,7 @@
 					<div class="widget group">
 				        <h3 class="widget-title">SOCIAL</h3>
                 <a href="#" class="icn twitter">Twitter</a>
-                <a href="http://www.facebook.com/Fxmobiledj?ref=ts&fref=ts" class="icn facebook">Facebook</a>
+                <a href="http://www.facebook.com/Fxmobiledj?ref=ts&fref=ts" class="icn facebook" target="_blank">Facebook</a>
                 <a href="#" class="icn gplus">Google+</a>
 				    </div><!-- /widget -->
 				</div><!-- /widget-area -->
