@@ -46,7 +46,7 @@ Fxmobiledj::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # Precompile additional assets (application.js, application.css, and all non-JS/CSS are already added)
-  config.assets.precompile += ['skeleton.css', 'style.css', 'mediaqueries.css', 'flexslider.css', 'jquery.js', 'jquery_ujs,js', 'hyphenator,js','jquery-1.8.2.min,js','jquery.equalHeights.js','jquery.fitvids.js','jquery.flexslider-min.js','jquery.prettyPhoto.js','modernizr.js','scripts.js','superfish.js']
+  config.assets.precompile += ['skeleton.css', 'style.css', 'mediaqueries.css', 'flexslider.css', 'default.css','jquery.js', 'jquery_ujs,js', 'hyphenator,js','jquery-1.8.2.min,js','jquery.equalHeights.js','jquery.fitvids.js','jquery.flexslider-min.js','jquery.prettyPhoto.js','modernizr.js','scripts.js','superfish.js']
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
